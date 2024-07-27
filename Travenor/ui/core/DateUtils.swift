@@ -7,7 +7,7 @@
 
 import Foundation
 
-class Utils {
+class DateUtils {
     
     static let dateFormat = "dd MMM yyyy"
     
