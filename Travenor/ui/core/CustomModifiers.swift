@@ -7,7 +7,7 @@
 
 import Foundation
 import SwiftUI
-
+import Combine
 
 
 struct MaxLengthModifier : ViewModifier {
@@ -40,6 +40,14 @@ extension View {
     
     func maxLength(limit: Int, value: Binding<String>) -> some View {
         modifier(MaxLengthModifier(limit: limit, value: value))
+    }
+    
+    @ViewBuilder func conditional<Content: View>(_ condition: Bool, trueCase: (Self)->Content) -> some View {
+        if condition {
+            trueCase(self)
+        } else {
+            self
+        }
     }
     
     

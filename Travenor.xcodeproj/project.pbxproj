@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B04F50F82C4DB305002DD8D3 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04F50F72C4DB305002DD8D3 /* CalendarView.swift */; };
 		B0A0F7D22B83668D00FE8B9D /* GetTripsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0F7D12B83668D00FE8B9D /* GetTripsResponse.swift */; };
 		B0A0F7D52B83681200FE8B9D /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0F7D42B83681200FE8B9D /* BaseResponse.swift */; };
 		B0A0F7D72B83849800FE8B9D /* GetTripDetailsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A0F7D62B83849800FE8B9D /* GetTripDetailsResponse.swift */; };
@@ -41,7 +42,7 @@
 		B0A5884A2B72576400BA12C7 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A588412B72576400BA12C7 /* CardView.swift */; };
 		B0A5884B2B72576400BA12C7 /* FabButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A588422B72576400BA12C7 /* FabButtonView.swift */; };
 		B0A5884C2B72576400BA12C7 /* PasswordTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A588432B72576400BA12C7 /* PasswordTextFieldView.swift */; };
-		B0A5884D2B72576400BA12C7 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A588442B72576400BA12C7 /* Utils.swift */; };
+		B0A5884D2B72576400BA12C7 /* DateUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A588442B72576400BA12C7 /* DateUtils.swift */; };
 		B0A5884E2B72576400BA12C7 /* BaseButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A588452B72576400BA12C7 /* BaseButtonStyle.swift */; };
 		B0A5884F2B72576400BA12C7 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A588462B72576400BA12C7 /* CustomModifiers.swift */; };
 		B0A588502B72576400BA12C7 /* InputFieldStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A588472B72576400BA12C7 /* InputFieldStyle.swift */; };
@@ -55,7 +56,7 @@
 		B0AA46032B822CD600308D9D /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AA46022B822CD600308D9D /* Country.swift */; };
 		B0AA46052B822D0A00308D9D /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AA46042B822D0A00308D9D /* City.swift */; };
 		B0AE78EA2B875734002C2535 /* TripDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE78E92B875734002C2535 /* TripDetailsViewModel.swift */; };
-		B0AE78EC2B876457002C2535 /* ViewsExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE78EB2B876457002C2535 /* ViewsExt.swift */; };
+		B0AE78EC2B876457002C2535 /* TextExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0AE78EB2B876457002C2535 /* TextExt.swift */; };
 		B0B152E02B74FA7A00ABC5F7 /* sf-ui-display-bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0B152DF2B74FA7A00ABC5F7 /* sf-ui-display-bold.otf */; };
 		B0B6392A2B6108870018A69E /* Geometric415BT-BlackA.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0B639292B6108870018A69E /* Geometric415BT-BlackA.otf */; };
 		B0C1DEFB2B5F943D009DEA7C /* sf-ui-display-medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = B0C1DEFA2B5F943D009DEA7C /* sf-ui-display-medium.otf */; };
@@ -69,6 +70,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B04F50F72C4DB305002DD8D3 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
 		B0A0F7D12B83668D00FE8B9D /* GetTripsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTripsResponse.swift; sourceTree = "<group>"; };
 		B0A0F7D42B83681200FE8B9D /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
 		B0A0F7D62B83849800FE8B9D /* GetTripDetailsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTripDetailsResponse.swift; sourceTree = "<group>"; };
@@ -104,7 +106,7 @@
 		B0A588412B72576400BA12C7 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		B0A588422B72576400BA12C7 /* FabButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FabButtonView.swift; sourceTree = "<group>"; };
 		B0A588432B72576400BA12C7 /* PasswordTextFieldView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordTextFieldView.swift; sourceTree = "<group>"; };
-		B0A588442B72576400BA12C7 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B0A588442B72576400BA12C7 /* DateUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtils.swift; sourceTree = "<group>"; };
 		B0A588452B72576400BA12C7 /* BaseButtonStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseButtonStyle.swift; sourceTree = "<group>"; };
 		B0A588462B72576400BA12C7 /* CustomModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		B0A588472B72576400BA12C7 /* InputFieldStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputFieldStyle.swift; sourceTree = "<group>"; };
@@ -118,7 +120,7 @@
 		B0AA46022B822CD600308D9D /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		B0AA46042B822D0A00308D9D /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		B0AE78E92B875734002C2535 /* TripDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripDetailsViewModel.swift; sourceTree = "<group>"; };
-		B0AE78EB2B876457002C2535 /* ViewsExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsExt.swift; sourceTree = "<group>"; };
+		B0AE78EB2B876457002C2535 /* TextExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExt.swift; sourceTree = "<group>"; };
 		B0B152DF2B74FA7A00ABC5F7 /* sf-ui-display-bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-bold.otf"; sourceTree = "<group>"; };
 		B0B639292B6108870018A69E /* Geometric415BT-BlackA.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Geometric415BT-BlackA.otf"; sourceTree = "<group>"; };
 		B0C1DEFA2B5F943D009DEA7C /* sf-ui-display-medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sf-ui-display-medium.otf"; sourceTree = "<group>"; };
@@ -143,6 +145,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B04F50F62C4DB2E9002DD8D3 /* customViews */ = {
+			isa = PBXGroup;
+			children = (
+				B04F50F72C4DB305002DD8D3 /* CalendarView.swift */,
+			);
+			path = customViews;
+			sourceTree = "<group>";
+		};
+		B04F50F92C4DB5A8002DD8D3 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				B04F50F62C4DB2E9002DD8D3 /* customViews */,
+				B0A3B6172B5EA31500B8673A /* baseViews */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
 		B0A0F7D32B83674700FE8B9D /* responses */ = {
 			isa = PBXGroup;
 			children = (
@@ -221,10 +240,10 @@
 		B0A3B5FE2B5E63D800B8673A /* ui */ = {
 			isa = PBXGroup;
 			children = (
+				B04F50F92C4DB5A8002DD8D3 /* utils */,
 				B0A480EF2B84D3B900A2139F /* tripDetails */,
 				B0B152DE2B74EF7C00ABC5F7 /* auth */,
 				B0A5883C2B7256E800BA12C7 /* core */,
-				B0A3B6172B5EA31500B8673A /* baseViews */,
 				B0A3B60D2B5E82B600B8673A /* fonts */,
 				B0A3B6012B5E751300B8673A /* routing */,
 				B0C4CAA72B5D5C4900E2FD66 /* TravenorApp.swift */,
@@ -323,7 +342,7 @@
 				B0A588422B72576400BA12C7 /* FabButtonView.swift */,
 				B0A588472B72576400BA12C7 /* InputFieldStyle.swift */,
 				B0A588432B72576400BA12C7 /* PasswordTextFieldView.swift */,
-				B0A588442B72576400BA12C7 /* Utils.swift */,
+				B0A588442B72576400BA12C7 /* DateUtils.swift */,
 				B0A5883D2B72571F00BA12C7 /* HelperViews.swift */,
 				B0A1B8882B73AF99007A1C8C /* CustomDialogModifier.swift */,
 				B0A39B202B7E295A00EE0C62 /* MockData.swift */,
@@ -338,7 +357,7 @@
 				B0A588402B72576400BA12C7 /* stringExt.swift */,
 				B0A588542B72615000BA12C7 /* Validation.swift */,
 				B0AA45FE2B821AFC00308D9D /* FontExt.swift */,
-				B0AE78EB2B876457002C2535 /* ViewsExt.swift */,
+				B0AE78EB2B876457002C2535 /* TextExt.swift */,
 			);
 			path = ext;
 			sourceTree = "<group>";
@@ -510,15 +529,16 @@
 				B0A588482B72576400BA12C7 /* BaseLoadingView.swift in Sources */,
 				B0AA46052B822D0A00308D9D /* City.swift in Sources */,
 				B0A39B1C2B7E25C100EE0C62 /* HomeViewModel.swift in Sources */,
+				B04F50F82C4DB305002DD8D3 /* CalendarView.swift in Sources */,
 				B0A1B8832B73967A007A1C8C /* ForgetPasswordViewModel.swift in Sources */,
 				B0A3B6052B5E75F600B8673A /* NavDestination.swift in Sources */,
 				B0A3B6072B5E7A8600B8673A /* OnBoardingView.swift in Sources */,
 				B0A480EE2B84845600A2139F /* HomeTripItem.swift in Sources */,
 				B0A5884A2B72576400BA12C7 /* CardView.swift in Sources */,
-				B0AE78EC2B876457002C2535 /* ViewsExt.swift in Sources */,
+				B0AE78EC2B876457002C2535 /* TextExt.swift in Sources */,
 				B0AA46032B822CD600308D9D /* Country.swift in Sources */,
 				B0AA45FF2B821AFC00308D9D /* FontExt.swift in Sources */,
-				B0A5884D2B72576400BA12C7 /* Utils.swift in Sources */,
+				B0A5884D2B72576400BA12C7 /* DateUtils.swift in Sources */,
 				B0C4CAA82B5D5C4900E2FD66 /* TravenorApp.swift in Sources */,
 				B0A588552B72615000BA12C7 /* Validation.swift in Sources */,
 				B0A588502B72576400BA12C7 /* InputFieldStyle.swift in Sources */,

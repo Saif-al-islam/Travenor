@@ -9,7 +9,20 @@ import SwiftUI
 
 struct CalendarTabItemView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            
+            
+            
+        }
+        .ignoresSafeArea()
+        .baseToolBar(title: "schedule") {
+            Image(systemName: "bell")
+                .size(44)
+                .background(Circle().fill(.gray.opacity(0.16)))
+        }
+        .onAppear {
+            
+        }
     }
 }
 
